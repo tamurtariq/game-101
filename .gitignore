@@ -1,6 +1,11 @@
 ```
-# Executables
+# Executable files
 spreadsheet-health-checker
+
+# Environment files
+.env
+.env.local
+*.env.*
 
 # Dependencies
 node_modules/
@@ -9,34 +14,21 @@ __pycache__/
 *.pyo
 *.pyd
 .Python
-env/
 venv/
+env/
 ENV/
 .venv/
-.env
-.env.local
-.env.*
-.env~*
-requirements.txt.bak
+env.bak/
+venv.bak/
 
-# Build artifacts
+# Build and distribution artifacts
 build/
 dist/
 *.egg-info/
 .installed.cfg
 *.egg
 
-# Editors
-.vscode/
-.idea/
-*.swp
-*.swo
-*~
-
-# Logs
-*.log
-
-# OS generated
+# OS generated files
 .DS_Store
 .DS_Store?
 ._*
@@ -44,4 +36,15 @@ dist/
 .Trashes
 ehthumbs.db
 Thumbs.db
+
+# Logs
+*.log
+*.out
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
 ```
